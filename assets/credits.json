@@ -1,0 +1,145 @@
+﻿{
+    "hero":  {
+                 "src":  "assets/img/hero.jpg",
+                 "title":  "me in gym",
+                 "creator":  "satguru",
+                 "creator_url":  "https://www.flickr.com/photos/48600096354@N01",
+                 "license":  "by",
+                 "license_version":  "2.0",
+                 "license_url":  "https://creativecommons.org/licenses/by/2.0/",
+                 "foreign_landing_url":  "https://www.flickr.com/photos/48600096354@N01/2661215221",
+                 "source":  "flickr"
+             },
+    "trainer-elena":  {
+                          "src":  "assets/img/trainer-elena.jpg",
+                          "title":  "angie",
+                          "creator":  "greg westfall.",
+                          "creator_url":  "https://www.flickr.com/photos/37129284@N02",
+                          "license":  "by",
+                          "license_version":  "2.0",
+                          "license_url":  "https://creativecommons.org/licenses/by/2.0/",
+                          "foreign_landing_url":  "https://www.flickr.com/photos/37129284@N02/3896838102",
+                          "source":  "flickr"
+                      },
+    "trainer-ruben":  {
+                          "src":  "assets/img/trainer-ruben.jpg",
+                          "title":  "Warriors ...",
+                          "creator":  "Claudio Gennari ...\u0027Cogli l\u0027attimo ferma il tempo\u0027",
+                          "creator_url":  "https://www.flickr.com/photos/27391161@N07",
+                          "license":  "by",
+                          "license_version":  "2.0",
+                          "license_url":  "https://creativecommons.org/licenses/by/2.0/",
+                          "foreign_landing_url":  "https://www.flickr.com/photos/27391161@N07/3557886648",
+                          "source":  "flickr"
+                      },
+    "trainer-laura":  {
+                          "src":  "assets/img/trainer-laura.jpg",
+                          "title":  "For Web (8)",
+                          "creator":  "Robert Bejil Productions",
+                          "creator_url":  "https://www.flickr.com/photos/28618109@N05",
+                          "license":  "by",
+                          "license_version":  "2.0",
+                          "license_url":  "https://creativecommons.org/licenses/by/2.0/",
+                          "foreign_landing_url":  "https://www.flickr.com/photos/28618109@N05/6449943747",
+                          "source":  "flickr"
+                      },
+    "trainer-diego":  {
+                          "src":  "assets/img/trainer-diego.jpg",
+                          "title":  "ACS Job fair - U.S. Army Garrison Humphreys, South Korea - 28 September 2012",
+                          "creator":  "USAG-Humphreys",
+                          "creator_url":  "https://www.flickr.com/photos/31687107@N07",
+                          "license":  "by",
+                          "license_version":  "2.0",
+                          "license_url":  "https://creativecommons.org/licenses/by/2.0/",
+                          "foreign_landing_url":  "https://www.flickr.com/photos/31687107@N07/8073275357",
+                          "source":  "flickr"
+                      },
+    "trainer-sofia":  {
+                          "src":  "assets/img/trainer-sofia.jpg",
+                          "title":  "CL Society 309: Runner look",
+                          "creator":  "francisco_osorio",
+                          "creator_url":  "https://www.flickr.com/photos/30330906@N04",
+                          "license":  "by",
+                          "license_version":  "2.0",
+                          "license_url":  "https://creativecommons.org/licenses/by/2.0/",
+                          "foreign_landing_url":  "https://www.flickr.com/photos/30330906@N04/8691408568",
+                          "source":  "flickr"
+                      },
+    "testimonial-1":  {
+                          "src":  "assets/img/testimonial-1.jpg",
+                          "title":  "Smile",
+                          "creator":  "Tom Newby Photography",
+                          "creator_url":  "https://www.flickr.com/photos/23460063@N06",
+                          "license":  "by",
+                          "license_version":  "2.0",
+                          "license_url":  "https://creativecommons.org/licenses/by/2.0/",
+                          "foreign_landing_url":  "https://www.flickr.com/photos/23460063@N06/5372211976",
+                          "source":  "flickr"
+                      },
+    "testimonial-2":  {
+                          "src":  "assets/img/testimonial-2.jpg",
+                          "title":  "",
+                          "creator":  "*~Much to My Dismay~*",
+                          "creator_url":  "https://www.flickr.com/photos/52955708@N04",
+                          "license":  "by",
+                          "license_version":  "2.0",
+                          "license_url":  "https://creativecommons.org/licenses/by/2.0/",
+                          "foreign_landing_url":  "https://www.flickr.com/photos/52955708@N04/6404175603",
+                          "source":  "flickr"
+                      },
+    "testimonial-3":  {
+                          "src":  "assets/img/testimonial-3.webp",
+                          "title":  "Portrait Middle-aged Man M Root",
+                          "creator":  "thegetty",
+                          "creator_url":  null,
+                          "license":  "cc0",
+                          "license_version":  "1.0",
+                          "license_url":  "https://creativecommons.org/publicdomain/zero/1.0/",
+                          "foreign_landing_url":  "https://www.rawpixel.com/image/14274862/portrait-middle-aged-man-root",
+                          "source":  "rawpixel"
+                      },
+    "testimonial-4":  {
+                          "src":  "assets/img/testimonial-4.jpg",
+                          "title":  "image6_big",
+                          "creator":  "doug kludt",
+                          "creator_url":  "https://www.flickr.com/photos/28378564@N00",
+                          "license":  "by",
+                          "license_version":  "2.0",
+                          "license_url":  "https://creativecommons.org/licenses/by/2.0/",
+                          "foreign_landing_url":  "https://www.flickr.com/photos/28378564@N00/221594184",
+                          "source":  "flickr"
+                      },
+    "testimonial-6":  {
+                          "src":  "assets/img/testimonial-6.jpg",
+                          "title":  "Feeling Professional",
+                          "creator":  "jurvetson",
+                          "creator_url":  "https://www.flickr.com/photos/44124348109@N01",
+                          "license":  "by",
+                          "license_version":  "2.0",
+                          "license_url":  "https://creativecommons.org/licenses/by/2.0/",
+                          "foreign_landing_url":  "https://www.flickr.com/photos/44124348109@N01/10579704104",
+                          "source":  "flickr"
+                      },
+    "trainer-marcos":  {
+                           "src":  "assets/img/trainer-marcos.jpg",
+                           "title":  "Fitness Model Arm Curls",
+                           "creator":  "personaltrainertoronto",
+                           "creator_url":  "https://www.flickr.com/photos/121183998@N08",
+                           "license":  "by",
+                           "license_version":  "2.0",
+                           "license_url":  "https://creativecommons.org/licenses/by/2.0/",
+                           "foreign_landing_url":  "https://www.flickr.com/photos/121183998@N08/13335780903",
+                           "source":  "flickr"
+                       },
+    "testimonial-5":  {
+                          "src":  "assets/img/testimonial-5.jpg",
+                          "title":  "Tomas smile",
+                          "creator":  "ComeIlMare",
+                          "creator_url":  "https://www.flickr.com/photos/81265921@N00",
+                          "license":  "by",
+                          "license_version":  "2.0",
+                          "license_url":  "https://creativecommons.org/licenses/by/2.0/",
+                          "foreign_landing_url":  "https://www.flickr.com/photos/81265921@N00/2545238516",
+                          "source":  "flickr"
+                      }
+}
