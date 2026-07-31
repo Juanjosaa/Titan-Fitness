@@ -308,21 +308,44 @@
 
     var burger = $("[data-nav-burger]");
     var mobile = $("[data-nav-mobile]");
+    var main = $("#main");
+    var footer = $(".footer");
+    var lockedScrollY = 0;
+
+    function setMenu(open) {
+      mobile.setAttribute("data-open", open ? "true" : "false");
+      burger.setAttribute("aria-expanded", open ? "true" : "false");
+      nav.classList.toggle("is-menu-open", open);
+
+      // Hide the page behind the overlay entirely — some browsers paint
+      // iframes (the Google Maps embed) in their own compositing layer
+      // that ignores z-index and bleeds through fixed-position overlays.
+      if (main) main.style.visibility = open ? "hidden" : "";
+      if (footer) footer.style.visibility = open ? "hidden" : "";
+
+      if (open) {
+        lockedScrollY = window.scrollY;
+        document.body.style.position = "fixed";
+        document.body.style.top = -lockedScrollY + "px";
+        document.body.style.left = "0";
+        document.body.style.right = "0";
+        document.body.style.overflow = "hidden";
+      } else {
+        document.body.style.position = "";
+        document.body.style.top = "";
+        document.body.style.left = "";
+        document.body.style.right = "";
+        document.body.style.overflow = "";
+        window.scrollTo(0, lockedScrollY);
+      }
+    }
+
     if (burger && mobile) {
       burger.addEventListener("click", function () {
-        var open = mobile.getAttribute("data-open") === "true";
-        mobile.setAttribute("data-open", open ? "false" : "true");
-        burger.setAttribute("aria-expanded", open ? "false" : "true");
-        nav.classList.toggle("is-menu-open", !open);
-        document.body.style.overflow = open ? "" : "hidden";
+        setMenu(mobile.getAttribute("data-open") !== "true");
       });
       $$("a", mobile).forEach(function (a) {
-        a.addEventListener("click", function () {
-          mobile.setAttribute("data-open", "false");
-          burger.setAttribute("aria-expanded", "false");
-          nav.classList.remove("is-menu-open");
-          document.body.style.overflow = "";
-        });
+        a.addEventListener("click", function () { setMenu(false); });
       });
     }
   }
